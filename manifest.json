@@ -1,13 +1,29 @@
 {
     "name": "View-Like Ratio for YouTube",
-    "description": "i wonder, i wonder.",
+    "description": "Add display to the YouTube watch page to show a view-to-like ratio or percentage.",
     "version": "0.1",
     "manifest_version": 3,
     "content_scripts": [
         {
             "matches": ["*://*.youtube.com/watch*"],
-            "css": ["style.css"],
-            "js": ["contentscript.js"]
+            "css": ["viewlike.css"],
+            "js": ["viewlike.js"]
+        }
+    ],
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": false
+      },
+    "permissions": [
+        "storage"
+    ],
+    "icons": {
+       "128": "viewlike128.png" 
+    },
+    "web_accessible_resources": [
+        {
+          "resources": [ "viewlike.svg" ],
+          "matches": ["<all_urls>"]
         }
     ]
   }
