@@ -1,2 +1,7 @@
 # View-to Like Ratio for YouTube
- chrome extension to help judge a video's quality by adding a view-to-like ratio or percentage to the watch page.
+ 
+Chrome extension to add a display to the YouTube watch page to show a view-to-like ratio or percentage.
+ 
+With YouTube dislikes on the way out, there should be an alternative way to judge a video's quality. This chrome extension brings a solution by showing how often viewers decide to like a video. This metric can be useful when comparing videos of similar content or by the same creator.
+
+You can download it on the webstore [here](https://chrome.google.com/webstore/detail/view-like-ratio-for-youtu/lfckpofpbpnedmdplciiilidanpaoemn).
