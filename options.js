@@ -18,7 +18,7 @@ function save_options() {
   function restore_options() {
     // Use default value color = 'red' and likesColor = true.
     chrome.storage.sync.get({
-      displaypreference: 'ratio'
+      displaypreference: 'both'
     }, function(items) {
       document.querySelector('input[value = "' + items.displaypreference + '"').checked = true;
     });

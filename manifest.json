@@ -1,7 +1,7 @@
 {
     "name": "View-Like Ratio for YouTube",
     "description": "Add display to the YouTube watch page to show a view-to-like ratio or percentage.",
-    "version": "0.2",
+    "version": "0.3",
     "manifest_version": 3,
     "content_scripts": [
         {

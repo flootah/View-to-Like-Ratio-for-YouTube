@@ -5,10 +5,10 @@
     --yt-button-margin: 0;
     --yt-button-padding-minus-border: 9px 15px;
     vertical-align: middle;
-    font-size: var(--ytd-tab-system_-_font-size);
-    font-weight: var(--ytd-tab-system_-_font-weight);
-    letter-spacing: var(--ytd-tab-system_-_letter-spacing);
-    text-transform: var(--ytd-tab-system_-_text-transform);
+    font-size: var(--ytd-tab-system-font-size);
+    font-weight: var(--ytd-tab-system-font-weight);
+    letter-spacing: var(--ytd-tab-system-letter-spacing);
+    text-transform: var(--ytd-tab-system_-text-transform);
     padding-top: 4px;
     padding-right: 10px;
     position: relative;
@@ -27,10 +27,11 @@
     color: var(--paper-tooltip-text-color, white);
     padding: 8px;
     text-align: center;
-    font-size: var(--paper-tooltip_-_font-size, 10px);
-    font-weight: var(--paper-tooltip_-_font-weight);
-    line-height: var(--paper-tooltip_-_line-height, 1);
-    text-transform: none;
+    font-size: var(--ytd-thumbnail-attribution_-_font-size);
+    font-weight: var(--ytd-thumbnail-attribution_-_font-weight);
+    line-height: var(--ytd-thumbnail-attribution_-_line-height);
+    letter-spacing: var(--ytd-thumbnail-attribution_-_letter-spacing);
+    text-transform: var(--ytd-thumbnail-attribution_-_text-transform);
     border-radius: 2px;
 
     left: 50%;

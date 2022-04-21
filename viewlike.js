@@ -14,9 +14,8 @@ if(document.readyState != "loading") {
 // Restores select box and checkbox state using the preferences
 // stored in chrome.storage.
 function get_options() {
-// Use default value color = 'red' and likesColor = true.
 chrome.storage.sync.get({
-        displaypreference: 'ratio'
+        displaypreference: 'both'
     }, function(items) {
         displaypreference = items.displaypreference
     });
@@ -34,11 +33,6 @@ function createDiv() {
     ratiodiv.id = "viewlikeratio";
     ratiodiv.classList.add("tooltip");
     ttext.classList.add("tooltiptext")
-    // img.id = "viewlikeicon";
-    // img.src = chrome.runtime.getURL("viewlike.svg");
-    // img.width = "24px";
-    // img.height = "24px";
-    // ratiodiv.appendChild(img);
     ratiodiv.appendChild(ratiotext);
     ratiodiv.appendChild(ttext);
 
