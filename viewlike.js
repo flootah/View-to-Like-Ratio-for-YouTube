@@ -5,6 +5,7 @@ var img = document.createElement("img");
 var displaypreference;
 get_options();
 
+
 document.addEventListener('yt-page-data-updated', process);
 if(document.readyState != "loading") {
     setTimeout(process, 1000)
